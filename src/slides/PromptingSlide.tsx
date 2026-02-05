@@ -130,8 +130,8 @@ export function PromptingSlide() {
                 }}>
                   {/* Vague prompt - struck through */}
                   <div style={{
-                    flex: '0 0 auto',
-                    maxWidth: '220px',
+                    width: '200px',
+                    flexShrink: 0,
                   }}>
                     <span style={{
                       fontSize: '14px',
