@@ -419,16 +419,18 @@ Reinforce the main messages and send them off empowered.
 
 ---
 
-## Implementation Order
+## Slide Components
 
-1. ~~Title Slide~~ (exists, needs update)
-2. AI Landscape (new)
-3. Simple Truth (exists as BigPicture, needs update)
-4. Tokens (exists, simplify significantly)
-5. Generation Game (combine Autoregressive + Probability)
-6. Memory Problem (exists as ContextWindow, update framing)
-7. Art of Prompting (new)
-8. Real Use Cases (new)
-9. Key Takeaways (exists, major update)
+All slides are implemented in `src/slides/`:
 
-**Delete**: TokenizerDemo, AttentionSlide (too technical)
+| # | File | Slide Title |
+|---|------|-------------|
+| 1 | `TitleSlide.tsx` | Welcome & The Driver Analogy |
+| 2 | `AILandscapeSlide.tsx` | The AI Landscape |
+| 3 | `SimpleTruthSlide.tsx` | The Simple Truth - What Is an LLM? |
+| 4 | `TokensSlide.tsx` | How AI Reads Your Message (Tokens) |
+| 5 | `GenerationSlide.tsx` | The Generation Game |
+| 6 | `ContextRotSlide.tsx` | The Memory Problem (Context Window) |
+| 7 | `PromptingSlide.tsx` | The Art of Prompting |
+| 8 | `UseCasesSlide.tsx` | Real Use Cases for Creators |
+| 9 | `TakeawaysSlide.tsx` | Key Takeaways |

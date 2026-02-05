@@ -47,7 +47,7 @@ People who:
 
 ```
 src/
-├── App.tsx              # Main app with Deck and Navigation
+├── App.tsx                # Main app with Deck and Navigation
 ├── components/
 │   └── NavigationBar.tsx  # Progress bar with prev/next controls
 ├── slides/
@@ -56,15 +56,15 @@ src/
 │   ├── SimpleTruthSlide.tsx
 │   ├── TokensSlide.tsx
 │   ├── GenerationSlide.tsx
-│   ├── MemorySlide.tsx
+│   ├── ContextRotSlide.tsx  # Memory/Context Window slide
 │   ├── PromptingSlide.tsx
 │   ├── UseCasesSlide.tsx
 │   └── TakeawaysSlide.tsx
 ├── styles/
-│   ├── theme.ts         # Color palette, fonts, spacing
-│   └── global.css       # Global styles
-sources/                 # Reference materials for content
-SLIDES_OUTLINE.md        # Detailed outline for each slide
+│   ├── theme.ts           # Color palette, fonts, spacing
+│   └── global.css         # Global styles
+docs/
+└── SLIDES_OUTLINE.md      # Detailed outline, speaker notes, design guidelines
 ```
 
 ## Navigation
